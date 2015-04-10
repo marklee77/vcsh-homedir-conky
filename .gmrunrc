@@ -1,3 +1,0 @@
-Terminal = urxvtcd
-TermExec = urxvtcd -e
-URL_http = /usr/bin/firefox %u

@@ -1,0 +1,11 @@
+*
+!.config
+!.config/mr
+!.config/mr/config.d
+!.config/mr/config.d/conky
+!.conkyrc
+!.gitignore.d
+!.gitignore.d/conky
+!.local
+!.local/bin
+!.local/bin/gcalcli-conky
