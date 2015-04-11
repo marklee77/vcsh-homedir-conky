@@ -1,13 +1,14 @@
 alignment top_right
-maximum_width 1200
-minimum_size 330 10
+#maximum_width 1200
+#minimum_size 330 10
 gap_x 25
 gap_y 50
 
-own_window no
-
 update_interval 300
-background yes
+background no
+
+own_window yes
+own_window_type desktop
 
 border_width 1
 default_color cornflowerblue
