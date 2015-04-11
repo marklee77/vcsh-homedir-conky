@@ -5,10 +5,6 @@ gap_x 25
 gap_y 50
 
 own_window no
-own_window_type desktop
-own_window_transparent yes
-own_window_argb_visual yes
-own_window_argb_value 0
 
 update_interval 300
 background yes
