@@ -3,7 +3,7 @@ gap_x 25
 gap_y 50
 
 update_interval 300
-background no
+background yes
 
 own_window yes
 own_window_type override
