@@ -3,10 +3,14 @@ gap_x 25
 gap_y 50
 
 update_interval 300
-background yes
+background no
+
+own_window yes
+own_window_type override
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 
 text_buffer_size 16384
-#out_to_console no
 uppercase no
 use_xft yes
 xftfont DejaVu Sans Mono for Powerline-11:style=Book
