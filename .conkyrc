@@ -23,4 +23,21 @@ update_interval 300
 text_buffer_size 10240
 
 TEXT
-${execpi 300 gcalcli-conky}
+#${execpi 300 gcalcli-conky}
+${acpiacadapter}
+${acpifan}
+${acpitemp}
+${addr wlan0}
+${addrs wlan0}
+${battery}
+${battery_bar}
+${buffers}
+${cached}
+${cpu}
+${cpubar}
+${cpugauge}
+${cpugraph}
+${downspeed}
+${loadgraph}
+${mem}
+${membar}
