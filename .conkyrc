@@ -10,6 +10,7 @@ own_window_transparent yes
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 
 uppercase no
+default_color 657b83
 double_buffer yes
 draw_borders no
 draw_outline no
@@ -23,4 +24,4 @@ text_buffer_size 10240
 
 TEXT
 ${execpi 300 gcalcli-conky}
-
+${color #ff0000}ALERT${color}
