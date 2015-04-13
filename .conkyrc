@@ -24,4 +24,3 @@ text_buffer_size 10240
 
 TEXT
 ${execpi 300 gcalcli-conky}
-${color #dc322f}${blink ALERT}${color}
