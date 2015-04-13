@@ -11,7 +11,11 @@ own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 
 uppercase no
 double_buffer yes
+draw_borders no
+draw_outline no
+draw_shades no
 use_xft yes
+xftalpha 0.8
 xftfont DejaVu Sans Mono for Powerline-11:style=Book
 
 update_interval 300
