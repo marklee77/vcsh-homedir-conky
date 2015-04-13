@@ -1,19 +1,21 @@
+background yes
+
 alignment top_right
 gap_x 25
 gap_y 50
-
-update_interval 300
-background yes
 
 own_window yes
 own_window_type override
 own_window_transparent yes
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 
-text_buffer_size 16384
 uppercase no
+double_buffer yes
 use_xft yes
 xftfont DejaVu Sans Mono for Powerline-11:style=Book
+
+update_interval 300
+text_buffer_size 8192
 
 TEXT
 ${execpi 300 gcalcli-conky}
