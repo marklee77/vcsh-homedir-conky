@@ -19,11 +19,11 @@ use_xft yes
 xftalpha 0.8
 xftfont DejaVu Sans Mono for Powerline-11:style=Book
 
-update_interval 300
+#update_interval 10
 text_buffer_size 10240
 
 TEXT
-${scroll 16 $nodename - $sysname $kernel on $machine | }
+$nodename - $sysname $kernel on $machine
 $hr
 ${color grey}Uptime:$color $uptime
 ${color grey}Frequency (in MHz):$color $freq
