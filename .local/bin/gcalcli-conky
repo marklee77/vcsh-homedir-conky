@@ -1,4 +1,9 @@
-#!/bin/sh
+#!/bin/bash
+
+if ! nm-online -x || ! ping -c 1 8.8.8.8 2>&1 >/dev/null; then
+    exit 0
+fi
+
 gcalcli --nocolor --conky -w 12 calw 4 |
     sed -e 's/(0\x71(B/─/g' \
         -e 's/(0\x78(B/│/g' \
@@ -11,4 +16,5 @@ gcalcli --nocolor --conky -w 12 calw 4 |
         -e 's/(0\x75(B/┤/g' \
         -e 's/(0\x76(B/┴/g' \
         -e 's/(0\x77(B/┬/g'
+
 gcalcli --nocolor --conky -w 12 agenda
