@@ -4,7 +4,7 @@ if ! nm-online -x || ! ping -c 1 8.8.8.8 2>&1 >/dev/null; then
     exit 0
 fi
 
-gcalcli --nocolor --conky -w 12 calw 4 |
+gcalcli --nocolor --conky -w 12 calw 2 |
     sed -e 's/(0\x71(B/─/g' \
         -e 's/(0\x78(B/│/g' \
         -e 's/(0\x6A(B/┘/g' \
