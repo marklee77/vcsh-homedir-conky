@@ -1,4 +1,4 @@
-background yes
+background no
 
 alignment top_right
 gap_x 25
@@ -43,4 +43,4 @@ ${color 93a1a1}File systems:
 ${color}$hr
 ${color 93a1a1}Entropy:$color ${entropy_bar}
 ${color}$hr
-#${execpi 300 gcalcli-conky}
+${execpi 300 gcalcli-conky}
