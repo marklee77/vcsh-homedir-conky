@@ -22,9 +22,9 @@ gcalcli \
         -e 's/(0\x76(B/┴/g' \
         -e 's/(0\x77(B/┬/g'
 
-gcalcli \
-    --calendar="Mark Stillwell" \
-    --calendar="Work" \
-    --calendar="Family" \
-    --calendar="Mark Lee Stillwell (TripIt)" \
-    --nocolor --conky -w 12 agenda
+#gcalcli \
+#    --calendar="Mark Stillwell" \
+#    --calendar="Work" \
+#    --calendar="Family" \
+#    --calendar="Mark Lee Stillwell (TripIt)" \
+#    --nocolor --conky -w 12 agenda
