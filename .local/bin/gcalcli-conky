@@ -1,30 +1,25 @@
 #!/bin/bash
 
-if ! nm-online -x || ! ping -c 1 8.8.8.8 2>&1 >/dev/null; then
-    exit 0
-fi
-
-gcalcli \
-    --calendar="Mark Stillwell" \
-    --calendar="Work" \
-    --calendar="Family" \
-    --calendar="Mark Lee Stillwell (TripIt)" \
-    --nocolor --conky -w 12 calw 2 |
-    sed -e 's/(0\x71(B/─/g' \
-        -e 's/(0\x78(B/│/g' \
-        -e 's/(0\x6A(B/┘/g' \
-        -e 's/(0\x6B(B/┐/g' \
-        -e 's/(0\x6C(B/┌/g' \
-        -e 's/(0\x6D(B/└/g' \
-        -e 's/(0\x6E(B/┼/g' \
-        -e 's/(0\x74(B/├/g' \
-        -e 's/(0\x75(B/┤/g' \
-        -e 's/(0\x76(B/┴/g' \
-        -e 's/(0\x77(B/┬/g'
+#if ! nm-online -x || ! ping -c 1 8.8.8.8 2>&1 >/dev/null; then
+#    exit 0
+#fi
 
 #gcalcli \
 #    --calendar="Mark Stillwell" \
 #    --calendar="Work" \
 #    --calendar="Family" \
 #    --calendar="Mark Lee Stillwell (TripIt)" \
-#    --nocolor --conky -w 12 agenda
+#    --nocolor --conky -w 12 calw 2 |
+#    sed -e 's/(0\x71(B/─/g' \
+#        -e 's/(0\x78(B/│/g' \
+#        -e 's/(0\x6A(B/┘/g' \
+#        -e 's/(0\x6B(B/┐/g' \
+#        -e 's/(0\x6C(B/┌/g' \
+#        -e 's/(0\x6D(B/└/g' \
+#        -e 's/(0\x6E(B/┼/g' \
+#        -e 's/(0\x74(B/├/g' \
+#        -e 's/(0\x75(B/┤/g' \
+#        -e 's/(0\x76(B/┴/g' \
+#        -e 's/(0\x77(B/┬/g'
+
+gcalcli --nocolor --conky -w 12 agenda
