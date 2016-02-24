@@ -1,8 +1,8 @@
 background no
 
-alignment top_right
+alignment bottom_right
 gap_x 25
-gap_y 50
+gap_y 10
 
 own_window yes
 own_window_type override
@@ -17,7 +17,7 @@ draw_outline no
 draw_shades no
 use_xft yes
 xftalpha 0.8
-xftfont DejaVu Sans Mono for Powerline-11:style=Book
+xftfont DejaVu Sans Mono for Powerline-9:style=Book
 
 #update_interval 10
 text_buffer_size 10240
@@ -44,3 +44,4 @@ ${color}$hr
 ${color 93a1a1}Entropy:$color ${entropy_bar}
 ${color}$hr
 ${execpi 300 gcalcli-conky}
+
