@@ -1,0 +1,3 @@
+[program:conky]
+command=conky
+autorestart=true

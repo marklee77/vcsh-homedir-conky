@@ -3,6 +3,9 @@
 !.config/mr
 !.config/mr/config.d
 !.config/mr/config.d/conky
+!.config/supervisord
+!.config/supervisord/config.d
+!.config/supervisord/config.d/conky
 !.conkyrc
 !.gitignore.d
 !.gitignore.d/conky
