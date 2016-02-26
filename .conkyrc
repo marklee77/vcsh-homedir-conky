@@ -10,7 +10,7 @@ own_window_transparent yes
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 
 uppercase no
-default_color 657b83
+default_color 586e75
 double_buffer yes
 draw_borders no
 draw_outline no
