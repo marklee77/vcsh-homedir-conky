@@ -10,7 +10,7 @@ own_window_transparent yes
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 
 uppercase no
-default_color 586e75
+default_color 073642
 double_buffer yes
 draw_borders no
 draw_outline no
@@ -44,4 +44,3 @@ ${color}$hr
 ${color 93a1a1}Entropy:$color ${entropy_bar}
 ${color}$hr
 ${execpi 300 gcalcli-conky}
-
