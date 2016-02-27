@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#if ! nm-online -x || ! ping -c 1 8.8.8.8 2>&1 >/dev/null; then
-#    exit 0
-#fi
+if ! ping -c 1 8.8.8.8 2>&1 >/dev/null; then
+    exit 0
+fi
 
 gcalcli \
     --calendar="Mark Stillwell" \
