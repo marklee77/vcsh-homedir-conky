@@ -21,8 +21,8 @@ xftfont DejaVu Sans Mono for Powerline-9:style=Book
 #update_interval 10
 text_buffer_size 10240
 
-default_color 268bd2
-color0 cb4b16
+default_color 839496
+color0 268bd2
 
 TEXT
 ${color}$nodename - $sysname $kernel on $machine
