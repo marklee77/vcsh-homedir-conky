@@ -10,8 +10,8 @@ gcalcli \
     --calendar="Family" \
     --calendar="Mark Lee Stillwell (TripIt)" \
     --calendar="mark.stillwell@meraki.net" \
-    --conky -w 12 calw 2 |
-    sed -e 's/(0\x71(B/─/g' \
+    --conky --nocolor -w 12 calw 2 | sed \
+        -e 's/(0\x71(B/─/g' \
         -e 's/(0\x78(B/│/g' \
         -e 's/(0\x6A(B/┘/g' \
         -e 's/(0\x6B(B/┐/g' \
@@ -22,5 +22,3 @@ gcalcli \
         -e 's/(0\x75(B/┤/g' \
         -e 's/(0\x76(B/┴/g' \
         -e 's/(0\x77(B/┬/g'
-
-#gcalcli --nocolor --conky -w 12 agenda
