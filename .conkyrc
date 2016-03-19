@@ -2,7 +2,7 @@ background no
 
 alignment bottom_right
 gap_x 25
-gap_y 10
+gap_y 0 
 
 own_window yes
 own_window_type override
@@ -16,7 +16,7 @@ draw_outline no
 draw_shades no
 use_xft yes
 xftalpha 0.8
-xftfont DejaVu Sans Mono for Powerline-9:style=Book
+xftfont DejaVu Sans Mono for Powerline-10:style=Book
 
 #update_interval 10
 text_buffer_size 10240
