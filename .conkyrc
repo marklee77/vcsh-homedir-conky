@@ -2,7 +2,7 @@ background no
 
 alignment bottom_right
 gap_x 25
-gap_y 0 
+gap_y 0
 
 own_window yes
 own_window_type override
@@ -32,7 +32,7 @@ ${color}Frequency:$color0 ${freq}MHz
 ${color}RAM Usage:$color0 $mem/$memmax - $memperc% ${membar 4}
 ${color}Swap Usage:$color0 $swap/$swapmax - $swapperc% ${swapbar 4}
 ${color}CPU Usage:$color0 $cpu% ${cpubar 4}
-${color}Processes:$color0 $processes  
+${color}Processes:$color0 $processes
 ${color0}$hr
 ${color}Name              PID   CPU%   MEM%
 ${color0} ${top name 1} ${top pid 1} ${top cpu 1} ${top mem 1}
