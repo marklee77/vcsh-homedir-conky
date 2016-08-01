@@ -46,3 +46,4 @@ ${color0}$hr
 ${color}Entropy:$color0 ${entropy_bar}
 ${color0}$hr
 ${color}${execpi 300 gcalcli-conky}
+
