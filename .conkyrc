@@ -2,7 +2,7 @@ background no
 
 alignment bottom_right
 gap_x 25
-gap_y 0
+gap_y 25
 
 own_window yes
 own_window_type override
@@ -27,9 +27,9 @@ color0 268bd2
 TEXT
 ${color}$nodename - $sysname $kernel on $machine
 ${color0}$hr
-${color}${font Lohit Bengali:size=12}জাগ্রত সময়${font}:$color0 $uptime
-${color}${font Lohit Bengali:size=12}ফ্রিকোয়েন্সি${font}:$color0 ${freq}MHz
-${color}${font Likhan:size=12}র্যাম ব্যবহার${font}:$color0 $mem/$memmax - $memperc% ${membar 4}
+${color}Uptime:$color0 $uptime
+${color}Frequency:$color0 ${freq}MHz
+${color}RAM Usage:$color0 $mem/$memmax - $memperc% ${membar 4}
 ${color}Swap Usage:$color0 $swap/$swapmax - $swapperc% ${swapbar 4}
 ${color}CPU Usage:$color0 $cpu% ${cpubar 4}
 ${color}Processes:$color0 $processes
