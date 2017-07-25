@@ -16,7 +16,7 @@ draw_outline no
 draw_shades no
 use_xft yes
 xftalpha 0.8
-xftfont DejaVu Sans Mono for Powerline-10:style=Book
+xftfont DejaVu Sans Mono Nerd Font Double:style=Book:size=10, Lohit Bengali
 
 #update_interval 10
 text_buffer_size 10240
@@ -45,4 +45,4 @@ ${color}File systems:
 ${color0}$hr
 ${color}Entropy:$color0 ${entropy_bar}
 ${color0}$hr
-${color}${execpi 300 gcalcli-conky}
+#${color}${execpi 300 gcalcli-conky}
