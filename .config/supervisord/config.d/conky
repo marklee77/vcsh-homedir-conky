@@ -1,4 +1,3 @@
 [program:conky]
 command=conky
-autostart=false
 autorestart=true
