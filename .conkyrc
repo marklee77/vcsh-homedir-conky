@@ -1,8 +1,8 @@
 background no
 
 alignment bottom_right
-gap_x 25
-gap_y 25
+gap_x 50
+gap_y 100
 
 own_window yes
 own_window_type override
